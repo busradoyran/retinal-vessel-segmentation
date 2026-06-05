@@ -58,11 +58,8 @@ Evaluated on the **DRIVE** (20 images, provided FOV mask) and **STARE** (20 imag
 
 | Dataset | Link | Notes |
 |---------|------|-------|
-| DRIVE | [grand-challenge.org](https://drive.grand-challenge.org) | Registration required |
-| STARE | [cecas.clemson.edu](https://cecas.clemson.edu/~ahoover/stare) | Free download |
-
----
-
+| DRIVE | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction) | 40 images (20 train / 20 test), expert-annotated ground truth masks |
+| STARE | [cecas.clemson.edu](https://cecas.clemson.edu/~ahoover/stare/probing/index.html) | 20 images including pathological cases, used for cross-dataset generalization only |
 ## Dependencies
 ```
 numpy
